@@ -32,7 +32,7 @@ async function main() {
 
   const functionName = 'transfer'
   const receiptAddress = '0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1' // don't modify
-  const amount = 1 * 10 ** 18
+  const amount = 10 * 10 ** 18
   const functionArgs = [receiptAddress, `${amount}`]
   const setMessageTx = await sendShieldedTransaction(
     //@ts-ignore
